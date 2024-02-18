@@ -38,12 +38,12 @@ A thorough analysis of competitors and products on the market is needed to ensur
 <img src="https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/capabilities%20overview%203.png" />
 
 ## Requirements
-#### Functional requirements
-#### Cross-functional requirements 
+#### [Functional requirements](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Requirements/Functional%20Requirements.md)
+#### [Cross-functional requirements](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Requirements/Cross%20Functional%20Requirements.png)
 ## Architecture visualization
 #### C4 diagram
 #### User flows diagram
 #### Deployment diagram
 ## ADR
-
+#### [ADR001](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/ADR/ADR001.md)
 
