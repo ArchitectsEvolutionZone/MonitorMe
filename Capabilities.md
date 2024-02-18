@@ -1,4 +1,20 @@
-# MonitorMe Capabilites
+# MonitorMe System Capabilites
+
+Get to know how the MonitorMe System will look like and how users will interact with it. 
+Currently we have 3 types of personas that will interact with the system, a Hospital Administrator, Medical Professionals and hospital patients (who will interact through with the system, through the Medical Professionals). 
+Further bellow you can find details on how each persona interacts with MonitorMe System. 
+
+## User journeys 
+
+### Hospital Administrator journey
+
+![Admin journey](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/admin%20journey.png)
+
+### Medical Professional journey 
+![MP journey](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/nurse%20journey.png)
+
+### Patient journey 
+![Patient journey](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/patient%20journery.png)
 
 ## Overview
 
