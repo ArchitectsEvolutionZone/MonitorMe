@@ -10,12 +10,18 @@ Further bellow you can find details on how each persona interacts with MonitorMe
 
 ![Admin journey](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/admin%20journey.png)
 
+
 ### Medical Professional journey 
 ![MP journey](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/nurse%20journey.png)
 
 ### Patient journey 
 ![Patient journey](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/patient%20journery.png)
 
-## Overview
+## Infrastructure of the installed MonitorMe system
+This is how the system will look like once fully installed by the MonitorMe support team and the system Administrator 
+
+![Infrastructure](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/DeploymentDiagram.drawio.png)
+
+## Overview of MonitorMe System Capabilites 
 
 ![Capabilities diagram](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/capabilities%20overview%203.png)
