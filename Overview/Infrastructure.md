@@ -15,7 +15,7 @@ The On-Premise MonitorMe server, will host
 * the services required to deliver alerts on the (CSM) and Mobile App
 * web server for the Website and Mobile App (backend for the Mobile App)
 
-## MonitorMe infrastructure deliverables 
+## MonitorMe infrastructure part delivered by StayHealty,Inc 
 - The vital sign devices can be provided by StayHealty, Inc or a set of specifications or vendors can be provided
 - Device Gateway
 - Consolidated Monitoring Screens
@@ -35,4 +35,4 @@ The hospital's administrative team will need to provide
 [Multiple medical devices in communication with the Device Gateway](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/ADR/ADR002.md)
 [Device Gateway for data collection and transmission](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/ADR/ADR006.md) 
 [Wired communication from Device Gateway to CMS](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/ADR/ADR001.md) 
-[Wired communication from Device Gateway to On-Premise Server)[https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/ADR/ADR003.md] 
+[Wired communication from Device Gateway to On-Premise Server](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/ADR/ADR003.md)
