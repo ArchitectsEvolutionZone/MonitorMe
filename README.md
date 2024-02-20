@@ -35,18 +35,17 @@ A thorough analysis of competitors and products on the market is needed to ensur
 
 ## MonitorMe system overview
 
-Familiarize youreself with the MonitorMe system. Find out how patients and hospital personel will interact with the system by going on the [user journeys](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Capabilities.md) for each role.
+### [System presentation](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Capabilities.md)
+#### [User journey - hospital admin](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/UserJourneysFolder/HospitalAdmin.md)
+#### [User journey - medical profesional](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/UserJourneysFolder/MedicalProfessional.md)
+#### [User journey - patient](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/UserJourneysFolder/MedicalProfessional.md) 
+#### [OnPremise infrastructure](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Overview/Infrastructure.md)
 
-
-This diagram presents an overview of the MonitorMe System functionalities 
-<img src="https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/capabilities%20overview%203.png" />
-
-Whereas this one illustrates the infrastructure that will be setup in the hospital for the MonitorMe System
-<img src="https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/infrastructure.png"/>
 
 ## Requirements
 #### [Functional requirements](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Requirements/Functional%20Requirements.md)
 #### [Cross-functional requirements](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Requirements/Cross%20Functional%20Requirements.png)
+#### [Constraints](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/UserJourneysFolder/Constraints.md)
 ## Architecture visualization
 #### C4 diagram
 #### User flows diagram
