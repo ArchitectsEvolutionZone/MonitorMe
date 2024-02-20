@@ -37,7 +37,10 @@ A thorough analysis of competitors and products on the market is needed to ensur
 
 Familiarize youreself with the MonitorMe system. Find out how patients and hospital personel will interact with the system by going on the [user journeys](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Capabilities.md) for each role.
 
+
+This diagram presents an overview of the MonitorMe System functionalities 
 <img src="https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/capabilities%20overview%203.png" />
+
 
 ## Requirements
 #### [Functional requirements](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Requirements/Functional%20Requirements.md)
