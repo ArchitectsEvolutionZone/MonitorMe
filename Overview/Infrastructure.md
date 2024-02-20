@@ -8,6 +8,8 @@ The recommendation is to have the vital sign montioring devices ready in each ho
 
 The MonitorMe support team will install Device Gateways in each room, which will pick-up data transmited for the vital sign monitoring devices and forward (over wire) to the Consolidated Monitoring Screen (CMS) and the On-Premise Monitor Me server. 
 
+The On-Premise server will then store and analyze the information, it will communicate with the Web and Mobile apps by Wireless Local Area Network (WLAN) 
+
 The On-Premise MonitorMe server, will host 
 * the data storage
 * the services required to deliver alerts on the (CSM) and Mobile App
