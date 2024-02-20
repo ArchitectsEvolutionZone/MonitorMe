@@ -1,8 +1,12 @@
-# Medical Professional 
+# Medical Professional Role
 
-MonitorMe System is there to support medical professionals in providing the best care for their patients; by being able to monitor patient's vitals signs and react fast when problems arise.
+MonitorMe System is there to support medical professionals in providing the best care for their patients; by being able to monitor patient's vitals signs and react fast when problems arise. Medical professionals are the target audience for this system. 
+
+# Medical Professional's Journeys
+
+## Registering patients
+
+
+## Receiving alerts
 
 ![Medical professional](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/nurse%20journey.png)
-
-
-# 
