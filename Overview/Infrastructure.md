@@ -32,7 +32,7 @@ The hospital's administrative team will need to provide
 - Fast data transder. By having wired communication to the CMS and On-Premise Server, data is transfered fast and reliably. 
 
 ## Relevant Architecture Decision Records 
-[Multiple medical devices in communication with the Device Gateway](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/ADR/ADR002.md)
-[Device Gateway for data collection and transmission](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/ADR/ADR006.md) 
-[Wired communication from Device Gateway to CMS](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/ADR/ADR001.md) 
-[Wired communication from Device Gateway to On-Premise Server](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/ADR/ADR003.md)
+- [Multiple medical devices in communication with the Device Gateway](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/ADR/ADR002.md)
+- [Device Gateway for data collection and transmission](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/ADR/ADR006.md) 
+- [Wired communication from Device Gateway to CMS](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/ADR/ADR001.md) 
+- [Wired communication from Device Gateway to On-Premise Server](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/ADR/ADR003.md)
