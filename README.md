@@ -35,11 +35,10 @@ A thorough analysis of competitors and products on the market is needed to ensur
 
 ## MonitorMe system overview
 
-### [System presentation](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Capabilities.md)
-#### [User journey - hospital admin](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/UserJourneysFolder/HospitalAdmin.md)
-#### [User journey - medical profesional](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/UserJourneysFolder/MedicalProfessional.md)
-#### [User journey - patient](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/UserJourneysFolder/MedicalProfessional.md) 
-#### [OnPremise infrastructure](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Overview/Infrastructure.md)
+### [Requirements analysis](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Capabilities.md)
+- [User journey - hospital admin](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/UserJourneysFolder/HospitalAdmin.md)
+- [User journey - medical profesional](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/UserJourneysFolder/MedicalProfessional.md)
+- [OnPremise infrastructure](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Overview/Infrastructure.md)
 
 
 ## Requirements
