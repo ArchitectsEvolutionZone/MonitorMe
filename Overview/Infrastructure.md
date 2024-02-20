@@ -15,6 +15,17 @@ The On-Premise MonitorMe server, will host
 * the services required to deliver alerts on the (CSM) and Mobile App
 * web server for the Website and Mobile App (backend for the Mobile App)
 
+## MonitorMe infrastructure deliverables 
+- The vital sign devices can be provided by StayHealty, Inc or a set of specifications or vendors can be provided
+- Device Gateway
+- Consolidated Monitoring Screens
+- Server hardware
+
+## Constraints on the hospital 
+The hospital's administrative team will need to provide 
+- posibility to setup a Wireless Local Area Network
+- wire infrastructure accross the hospital's premise
+
 ## Non-functional requirements 
 - Extensibility. The MonitorMe system is capable of integrating with vital sign monitoring devices that communicate over Bluetooth LE. The Device Gatweay enables easy integration of other type of protocols, being able to transform the information to the format used by MonitorMe system.
 - Security. By using strict communication channels, as well as wired communication and secured Wireless Networks, we can limit the the interaction that MonitorMe has with other apps.
