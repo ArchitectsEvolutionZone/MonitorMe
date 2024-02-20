@@ -21,5 +21,5 @@ The settup of the MonitorMe System is told throught the Hospital Administrator r
 # Proposed infrastructure 
 For an overview of the  proposed infrastructure for the MonitorMe System and a visual on how the system will look like after setup, see [Infrastructure Page](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Overview/Infrastructure.md) 
 
-# Identified containers 
+# Identified components 
 This user journey highlights the need of an administration module in the MonitorMe system
