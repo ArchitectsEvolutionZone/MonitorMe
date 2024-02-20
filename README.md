@@ -33,7 +33,9 @@ Overall, the market for patient and vital signs monitoring is robust and expandi
 Considering the above, there’s no surprise to find many players in this market (GE HealthCare, Medtronic, Vigilife, and Ascom, just to name a few), developing both hardware and software for patient bio-signs monitoring. This competition is good for the patients for the advancement in this field but puts a lot of pressure on companies that develop these software systems and devices. New software systems should aim to improve what already exists (from a performance and cost point of view) and to innovate further patient monitoring field.
 A thorough analysis of competitors and products on the market is needed to ensure product-market fit and product-problem fit. By doing this we can also anticipate requirements beyond current ones.
 
-## [MonitorMe system overview](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Capabilities.md)
+## MonitorMe system overview
+
+Familiarize youreself with the MonitorMe system. Find out how patients and hospital personel will interact with the system by going on the [user journeys](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Capabilities.md) for each role.
 
 <img src="https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/capabilities%20overview%203.png" />
 
