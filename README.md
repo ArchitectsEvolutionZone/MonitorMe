@@ -41,6 +41,8 @@ Familiarize youreself with the MonitorMe system. Find out how patients and hospi
 This diagram presents an overview of the MonitorMe System functionalities 
 <img src="https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/capabilities%20overview%203.png" />
 
+Whereas this one illustrates the infrastructure that will be setup in the hospital for the MonitorMe System
+<img src="https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/infrastructure.png"/>
 
 ## Requirements
 #### [Functional requirements](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Requirements/Functional%20Requirements.md)
