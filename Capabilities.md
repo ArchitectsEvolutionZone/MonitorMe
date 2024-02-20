@@ -15,4 +15,4 @@ Get to know how each role will interact with the MonitorMe system and dive into 
 
 
 ## Proposed infrastructure 
-To have a visual on how the MonitorMe System will be setup on a hospital grounds see the [Infrastructure Page](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Overview/Infrastructure.md) 
+For an overview of the analysis and proposed infrastructure of the MonitorMe System see the [Infrastructure Page](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Overview/Infrastructure.md) 
