@@ -16,7 +16,10 @@ The settup of the MonitorMe System is told throught the Hospital Administrator r
 - The hospital administrator registers the Consolidated Monitoring Screens that were installed by the support team. Relevant information here is CMS location (floor, nurse station location, identifier) 
 - The hospital administrator associates rooms to Consolidated Monitoring Systems, such as there are max 20 pacients asociated to one CMS.
 - The hospital administrator registers the vital sign devices in the MonitorMe System. Relevant information to collect is: device identifier, device type
-- The hospital administrator creates accounts for the medical professionals. Relevant information here: name, identifier, medical role 
+- The hospital administrator creates accounts for the medical professionals. Relevant information here: name, identifier, medical role
 
 # Proposed infrastructure 
 For an overview of the  proposed infrastructure for the MonitorMe System and a visual on how the system will look like after setup, see [Infrastructure Page](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Overview/Infrastructure.md) 
+
+# Identified containers 
+This user journey highlights the need of an administration module in the MonitorMe system
