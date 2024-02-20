@@ -10,6 +10,9 @@ Before putting the system in use, the vital sign monitoring devices will be regi
 
 Once this setup is made, medical professionals are ready to register and monitor patients through the MonitorMe system.
 
+## Requirements analysis
+Get to know how each role will interact with the MonitorMe system and dive into further requirements analysis by following the user journeys of a [Hospital Administrator](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/UserJourneysFolder/HospitalAdmin.md), [Medical Professionals](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/UserJourneysFolder/MedicalProfessional.md) and [hospital patients](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/UserJourneysFolder/Patient.md) 
 
-Get to know how each role will interact with the MonitorMe system and dive into further requirements analysis by following the user journeys of a [Hospital Administrator](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/UserJourneysFolder/HospitalAdmin.md), [Medical Professionals](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/UserJourneysFolder/MedicalProfessional.md) and [hospital patients](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/UserJourneysFolder/Patient.md) (who will interact through with the system, through the Medical Professionals). 
 
+## Proposed infrastructure 
+To have a visual on how the MonitorMe System will be setup on a hospital grounds see the [Infrastructure Page](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Overview/Infrastructure.md) 
