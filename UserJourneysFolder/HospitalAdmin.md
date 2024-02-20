@@ -8,7 +8,7 @@ This role will help setup the system so the medical professionals can use it wit
 
 # Administrator's Journey 
 The settup of the MonitorMe System is told throught the Hospital Administrator role and the MonitorMe System support team. 
-[Admin journey](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/admin%20journey.png)
+![Admin journey](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/admin%20journey.png)
 
 # Use cases 
 - The system administrator sets up an account for the hospital administrator. Here we're interested in the user name, name as data for the hospital administrator
