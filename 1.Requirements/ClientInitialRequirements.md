@@ -1,4 +1,6 @@
-# MonitorMe
+<img src="https://images.emojiterra.com/google/noto-emoji/unicode-15.1/color/svg/1f680.svg" align="right" height="64px" />
+
+# MonitorMe Initial Client Requirements
 
 **StayHealthy, Inc.** is a large and highly successful medical software company located in San Francisco,
 California, US. They currently have 2 popular cloud-based SAAS products: **MonitorThem** and **MyMedicalData**.
