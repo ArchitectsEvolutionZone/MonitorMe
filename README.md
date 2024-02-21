@@ -44,7 +44,7 @@ A thorough analysis of competitors and products on the market is needed to ensur
 
 - [User journey - hospital admin](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/UserJourneys/HospitalAdmin.md)
 - [User journey - medical profesional](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/UserJourneys/MedicalProfessional.md)
-- [Requirements analysis conclusions](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/Core%20Requirements.md)
+- [Requirements analysis conclusions](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/Core%20requirements.md)
 
 <img src="https://www.techwell.com/sites/default/files/stories/images/cropped_teasers/Beth%20Romanik/2018/requirements-software-obsolete.png" align="right" height="64px" />
 
@@ -73,8 +73,6 @@ Implicit characteristics:
 - security - is a critical consideration for our system, particularly given its involvement with patient vital data. To bolster security measures, the implementation of both wired and WLAN communication between systems has been adopted. This dual approach aims to provide a resilient and secure network infrastructure. Additionally, the use of devices adhering to established data communication standards, such as HL7, has been prioritized. Opting for standardized protocols over proprietary ones not only fosters interoperability but also contributes to a more secure and cost-effective system. The decision to host the server on-premise further enhances security. This localized approach allows for greater control over access, monitoring, and safeguarding of sensitive patient information. The combination of these measures underscores the commitment to maintaining the integrity and confidentiality of patient vital data throughout the system architecture.
 - maintainability - we will strive for designing the system with a modular structure, where components are independent and loosely coupled. This facilitates easier updates or replacements without affecting the entire system, since we will need to address new functionalities. Standardized coding practices and conventions across the development team will be enforced. Consistency in coding style makes it easier for multiple developers to understand and maintain the codebase. Automated testing will be implemented to validate the system's functionality after updates or modifications. Automated tests help catch issues early, ensuring that changes do not introduce unexpected problems. And also Continuous Integration and Deployment pipelines will be created to automate the testing and deployment processes. This accelerates the delivery of updates and ensures a more streamlined and predictable maintenance workflow.
 - observability - there will be in place a systematic monitoring and logging of various aspects of the system that will allow developers and operators to understand its functioning, diagnose issues, and optimize performance. 
- 
-#### [Constraints](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/Constraints.md)
 
 ## Architecture visualization
 #### [OnPremise infrastructure](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/Infrastructure.md)

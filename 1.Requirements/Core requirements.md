@@ -5,15 +5,19 @@ Our analysis on the client's requirements concludes that these are the essential
 - Medical professional receive alerts when patient's vital signs are out of norm 
 
 # Project Constraints 
-- OnPremise infrastructure
+- OnPremise infrastructure that will allow high control over the data, enable limited access to public networks
 - Fast data transfer:  1s data delay between communication points is acceptable 
 - Integration with MyMedicalData - upload snapshot functionality
-- Changing requirements 
+- Changing requirements due to a continuosly developing environment. 
 
 # Architecture characteristics
 Based on the core requirements, the following architecture characteristics were identified 
-- Responsivnes. Health data should reach the Consolidated Monitoring Screen in less than 1 second. 
-- Fault tolerance. The system is required to work even when some of it's devices are down, continuing to process information and deliver data for medical professionals. As further development, we propose to alert the hospital administrator when a device is detected as being faulty (the system din't receive data from it as expected).
-- Performance. The component of the system responsible for analyzing vital sign data plays a pivotal role in responding promptly. It is critical for swift and timely action, facilitating instant alerts to medical professionals.
-- Accuracy. Vital sign data that is analyzed and recorded must be as accurate as possible since human lives are at stake. The monitoring device types and supported protocols need to be analyzed and established so we can atest to the quality of the data that is sent into the system. 
-- 
+- __Responsivnes__. Health data should reach the Consolidated Monitoring Screen in less than 1 second. 
+- __Fault tolerance__. The system is required to work even when some of it's devices are down, continuing to process information and deliver data for medical professionals. As further development, we propose to alert the hospital administrator when a device is detected as being faulty (the system din't receive data from it as expected).
+- __Performance__. The component of the system responsible for analyzing vital sign data plays a pivotal role in responding promptly. It is critical for swift and timely action, facilitating instant alerts to medical professionals.
+- __Accuracy__. Vital sign data that is analyzed and recorded must be as accurate as possible since human lives are at stake. The monitoring device types and supported protocols need to be analyzed and established so we can atest to the quality of the data that is sent into the system. 
+- __Agility__. In order to support the need of the client for changing requirements, we plan to adopt an agile metodology for developing the MonitorMe system. 
+- __Extensibility__. The system should be able to support the addition of new medical devices. This can be achieved by supporting several standardized device communication protocols, creating abstraction layer between the device and the MonitorMe system and preparing new plugins for handling the received data. 
+- __Security__. MonitorMe needs to be a high performing system enabling Medical Professionals to react faster to patient's degrading health. With that purpose in mind, it's important for the system to be secure, the data collected needs to be reliable and accurate. The system needs to be protected from malicious intent like fake data or hacking, DDOS attack. Patien data is confidential 
+
+Having these characteristics identified we have further analysed and detailed them the Cross-Functional requirements section.  
