@@ -20,10 +20,12 @@ We've illustrated bellow 3 scenarios where a Medical Professional interacts with
 - Link vital sign monitoring devices to patient profile
 - MonitorMe system reads data from medical devices 
 - Display vital signs on the CMS
+- CMS cycles through the vital signs of the assigned patients at a 5s interval
 - Authenticate medical professional
 - Send alerts to apropriate CMS and medical professionals, when patient vital sign is out of the norm
 - Generate vital sign snapshot
 - Upload vital sign snapshot to MyMedicalData
+- A medical professional can filter trough the vital sign data of a patient by a time interval 
 
 Out of current scope 
 - MonitorMe can send alerts to the Hospital Adminsitrator when one of the monitoring devices is not sending data 
@@ -35,4 +37,4 @@ Going through the user journeys and thinking on building the architecture of the
 - Vital sign analysis module, will be the area that will decide if an alerts needs to be sent 
 - Monitoring data module will be in charge with storing the recorded data 
 
-# Relevat architecture decision records 
+

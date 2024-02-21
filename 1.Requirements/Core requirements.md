@@ -5,10 +5,11 @@ Our analysis on the client's requirements concludes that these are the essential
 - Medical professional receive alerts when patient's vital signs are out of norm 
 
 # Project Constraints 
-- OnPremise infrastructure that will allow high control over the data, enable limited access to public networks
-- Fast data transfer:  1s data delay between communication points is acceptable 
-- Integration with MyMedicalData - upload snapshot functionality
+- OnPremise infrastructure that will allow high control over the data, enable limited access to public networks.
+- Fast data transfer:  1s data delay between communication points is acceptable.
+- Integration with MyMedicalData - upload snapshot functionality.
 - Changing requirements due to a continuosly developing environment. 
+- Expectation is that the MonitorMe system can support data storage and analysis for 500 patients. 
 
 # Architecture characteristics
 Based on the core requirements, the following architecture characteristics were identified 
