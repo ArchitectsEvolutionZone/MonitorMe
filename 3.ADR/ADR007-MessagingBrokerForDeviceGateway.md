@@ -1,13 +1,11 @@
 # Adopting a Messaging Broker for DeviceGateway
 
 ## Context
-In the context of DeviceGateway, a physical device with embedded software designed to facilitate communication between various components in our ecosystem, 
-we require a messaging broker to efficiently route and manage messages exchanged between components, supporting both wired and wireless (WLAN) communication channels. 
+In the context of DeviceGateway, a physical device with embedded software designed to facilitate communication between various components in our ecosystem, we require a messaging broker to efficiently route and manage messages exchanged between components, supporting both wired and wireless (WLAN) communication channels. 
 A messaging broker serves as an intermediary to facilitate communication between devices and consumers.
 
 ## Decision: 
-The decision is to implement a message broker physical component, which would facilitate data transmission between various types of devices and consumers, 
-over wired and wireless communication.
+The decision is to implement a message broker physical component, which would facilitate data transmission between various types of devices and consumers, over wired and wireless communication.
 
 ## Status
 Proposed
