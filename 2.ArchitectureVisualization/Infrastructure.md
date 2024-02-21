@@ -38,4 +38,4 @@ The hospital's administrative team will need to provide
 - [Wired communication from Device Gateway to On-Premise Server](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR003.md)
 
 ## Deployment considerations 
-Check the [Deployment page](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/C4Diagram.md) for details on how we think of delivering updates at this stage.
+Check the [Deployment page](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/Deployment.md) for details on how we think of delivering updates at this stage.
