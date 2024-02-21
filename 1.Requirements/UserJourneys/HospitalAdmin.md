@@ -27,4 +27,4 @@ The configuration and setup process of the MonitorMe System are communicated thr
 For an overview of the  proposed infrastructure for the MonitorMe System and a visual on how the system will look like after setup, see [Infrastructure Page](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/Infrastructure.md) 
 
 # Identified components 
-This user journey highlights the need of an administration module in the MonitorMe system
+This user journey highlights the need of a configuration module in the MonitorMe system.

@@ -20,4 +20,4 @@ Based on the core requirements, the following architecture characteristics were 
 - __Extensibility__. The system should be able to support the addition of new medical devices. This can be achieved by supporting several standardized device communication protocols, creating abstraction layer between the device and the MonitorMe system and preparing new plugins for handling the received data. 
 - __Security__. MonitorMe needs to be a high performing system enabling Medical Professionals to react faster to patient's degrading health. With that purpose in mind, it's important for the system to be secure, the data collected needs to be reliable and accurate. The system needs to be protected from malicious intent like fake data or hacking, DDOS attack. Patien data is confidential 
 
-Having these characteristics identified we have further analysed and detailed them the Cross-Functional requirements section.  
+Having these characteristics identified, we have further analysed and detailed them in the Cross-Functional requirements section and [Architecture Decision Records](https://github.com/ArchitectsEvolutionZone/MonitorMe/tree/main/3.ADR)

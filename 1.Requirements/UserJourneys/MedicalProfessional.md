@@ -15,7 +15,7 @@ We've illustrated bellow 3 scenarios where a Medical Professional interacts with
 ![Medical professional](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/UserJourneys/snapshotJourney.png)
 
 # Use cases 
-- Register profile for patient in the MonitorMe system. Relevat information to collect: Name, Social Security Number, Status (hospitalized/discharged) 
+- Register profile for patient in the MonitorMe system. Relevat information to collect: Name, Social Security Number, Status (hospitalized/discharged), Birth date.
 - Assign patient to a hospital room and assign medical personal that will provide medical care during his stay 
 - Link vital sign monitoring devices to patient profile
 - MonitorMe system reads data from medical devices 
@@ -28,4 +28,11 @@ We've illustrated bellow 3 scenarios where a Medical Professional interacts with
 Out of current scope 
 - MonitorMe can send alerts to the Hospital Adminsitrator when one of the monitoring devices is not sending data 
 
+# Identified components
+Going through the user journeys and thinking on building the architecture of the system, the following components emerge: 
+- Patient module, which will handle patient related info. 
+- A security module, which will authenticate medical professionals in the system 
+- Vital sign analysis module, will be the area that will decide if an alerts needs to be sent 
+- Monitoring data module will be in charge with storing the recorded data 
 
+# Relevat architecture decision records 
