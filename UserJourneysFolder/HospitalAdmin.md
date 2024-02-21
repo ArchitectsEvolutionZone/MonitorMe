@@ -1,13 +1,18 @@
 # System and Hospital Administrator Role 
 
 The need of the administrators role was identified based on the [provided requirements](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Requirements/Functional%20Requirements.md).
+
 __System Administrator__ 
+
 A user with this role will be setup with a clean install of the MonitorMe software. We will then use this role to provide access for the Hospital Administrator and configure system operations (maybe limitting supported devices). 
+
 __Hospital Administrator__
+
 This role will help setup the system so the medical professionals can use it with ease and have support in caring for their patients. The person with this role is familiar with the hospital staff, room layouts and infrastructure capabilities.
 
 # Administrator's Journey 
-The settup of the MonitorMe System is told throught the Hospital Administrator role and the MonitorMe System support team. 
+The configuration and setup process of the MonitorMe System are communicated through the perspectives of the Hospital Administrator role and the dedicated support team for the MonitorMe System.
+
 ![Admin journey](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/admin%20journey.png)
 
 # Use cases 
