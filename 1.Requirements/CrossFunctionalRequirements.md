@@ -1,3 +1,5 @@
+<img src="https://www.techwell.com/sites/default/files/stories/images/cropped_teasers/Beth%20Romanik/2018/requirements-software-obsolete.png" align="right" height="64px" />
+
 # Cross-functional requirements
 
 In the project's requirement phase, cross-functional requirements were pinpointed.
