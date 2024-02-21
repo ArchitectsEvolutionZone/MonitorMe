@@ -15,7 +15,7 @@ The On-Premise MonitorMe server, will host
 * the services required to deliver alerts on the (CMS) and Mobile App
 * web server for the Website and Mobile App (backend for the Mobile App)
 
-## MonitorMe infrastructure part delivered by StayHealty,Inc 
+## MonitorMe infrastructure part delivered by StayHealthy,Inc 
 - The vital sign devices can be provided by StayHealthy, Inc or a set of specifications or vendors can be provided
 - Device Gateway
 - Consolidated Monitoring Screens
@@ -29,13 +29,13 @@ The hospital's administrative team will need to provide
 ## Cross-functional requirements 
 - Extensibility. The MonitorMe system is capable of integrating with vital sign monitoring devices that communicate over Bluetooth LE. The Device Gateway enables easy integration of other type of protocols, being able to transform the information to the format used by MonitorMe system.
 - Security. By using strict communication channels, as well as wired communication and secured Wireless Networks, we can limit the interaction that MonitorMe has with other apps.
-- Fast data transder. By having wired communication to the CMS and On-Premise Server, data is transfered fast and reliably. 
+- Fast data transfer. By having wired communication to the CMS and On-Premise Server, data is transferred fast and reliably. 
 
 ## Relevant Architecture Decision Records 
-- [Multiple medical devices in communication with the Device Gateway](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR002.md)
-- [Device Gateway for data collection and transmission](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR006.md) 
-- [Wired communication from Device Gateway to CMS](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR001.md) 
-- [Wired communication from Device Gateway to On-Premise Server](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR003.md)
+- [Multiple medical devices in communication with the Device Gateway](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR002-HL7TransmissionToDeviceGateway.md)
+- [Device Gateway for data collection and transmission](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR006-DeviceGateway.md) 
+- [Wired communication from Device Gateway to CMS](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR001-WiredCommunicationGatewayToCMS.md) 
+- [Wired communication from Device Gateway to On-Premise Server](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR003-WiredCommunicationGatewayToServer.md)
 
 ## Deployment considerations 
 Check the [Deployment page](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/Deployment.md) for details on how we think of delivering updates at this stage.
