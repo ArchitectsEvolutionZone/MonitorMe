@@ -42,8 +42,9 @@ A thorough analysis of competitors and products on the market is needed to ensur
 
 <img src="https://wpforms.com/wp-content/uploads/2021/10/user-journey.png" align="left" height="64px" />
 
-#### [User journey - hospital admin](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/UserJourneys/HospitalAdmin.md)
-#### [User journey - medical profesional](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/UserJourneys/MedicalProfessional.md)
+- [User journey - hospital admin](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/UserJourneys/HospitalAdmin.md)
+- [User journey - medical profesional](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/UserJourneys/MedicalProfessional.md)
+- [Requirements analysis conclusions](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/Core%20Requirements.md)
 
 <img src="https://www.techwell.com/sites/default/files/stories/images/cropped_teasers/Beth%20Romanik/2018/requirements-software-obsolete.png" align="right" height="64px" />
 

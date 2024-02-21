@@ -11,8 +11,10 @@ Before putting the system in use, the vital sign monitoring devices will be regi
 Once this setup is made, medical professionals are ready to register and monitor patients through the MonitorMe system.
 
 ## Requirements analysis
-Get to know how each role will interact with the MonitorMe system and dive into further requirements analysis by following the user journeys of a [Administrators](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/UserJourneys/HospitalAdmin.md) and [Medical Professionals](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/UserJourneys/MedicalProfessional.md) 
+Get to know how each role will interact with the MonitorMe system and dive into further requirements analysis by following the user journeys of [Administrators](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/UserJourneys/HospitalAdmin.md) and [Medical Professionals](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/UserJourneys/MedicalProfessional.md) 
 
+## Requirements analysis conlusion 
+We conclude the requirements analysis with a summary of the [Core requirements](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/Core%20Requirements.md#core-requirements), [Project Constraints](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/Core%20Requirements.md#project-constraints) that we identified and based on these we extract the [Architectural charactersistics](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/Core%20Requirements.md#architectural-characteristics) that will drive the design of the MonitorMe System (both the infrastructure and the software architecture).
 
 ## Proposed infrastructure 
 For an overview of the analysis and proposed infrastructure of the MonitorMe System see the [Infrastructure Page](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/Infrastructure.md) 
