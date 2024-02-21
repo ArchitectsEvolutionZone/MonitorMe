@@ -1,4 +1,4 @@
-## Cross-functional requirements
+# Cross-functional requirements
 
 In the project's requirement phase, cross-functional requirements were pinpointed.
 These characteristics served as guiding principles for the team's choices throughout the architecture analysis stage.
@@ -13,17 +13,23 @@ These characteristics served as guiding principles for the team's choices throug
 | [x] | Performance	| The component of the system responsible for analyzing vital sign data plays a pivotal role in responding promptly. It is critical for swift and timely action, facilitating instant alerts to medical professionals. One measures taken to achieve performance, will be to optimize algorithms and data structures to ensure efficient processing and resource utilization. Also a caching mechanism will be put in place to store frequently accessed data, reducing the need for redundant processing and enhancing response times.|
 | [ ]	| Accuracy|	Vital sign data that is analyzed and recorded must be as accurate as possible since human lives are at stake. Data sources will be validated and verified to minimize the risk of errors from the outset. Also quality assurance and testing processes will be integrated in order to identify and rectify inaccuracies in data, software, or processes before they impact outcomes. This includes leveraging automation and technology to perform repetitive and data-intensive tasks, reducing the likelihood of human errors and enhancing overall accuracy. Running tests will happen in a dedicated test environment, especially since the production system is on-premises. This approach allows for thorough testing and validation of system changes, updates, or new features in a controlled environment before deploying them to the live production system. Here are some key advantages and considerations:These tests will run on the test environments, since the production system is on-prem. |
 
-Other characteristics taken into consideration were:
+
+## Other characteristics taken into consideration were:
 
 - interoperability - since we have different systems that need to communicate, exchange data, and operate in conjunction with one another, we need to focus also on interoperability. We will do this by implementing widely accepted industry standards for data formats, communication protocols (HL7), and interfaces. Data formats and structures will be standardized to ensure uniformity in how information is represented and exchanged.
+  
 - redundancy - for minimizing the risk of system failure, we will involve the duplication of critical a component, that is the on-premise server, to enhance reliability and minimize the risk of system failure.
+  
 - confidentiality - patient data is sensitive data and needs to be protected. This involves implementing security measures like encryption techniques, access controls, and policies to protect it from being disclosed to unauthorized individuals or entities.
 
-Implicit characteristics:
+## Implicit characteristics:
 
 - feasibility - we will focus on taking feasibility-driven architectural decisions, which aim to strike a balance between achieving the desired functionality and meeting project constraints. We will also ensure that the chosen architecture is viable within the given time and budgetary constraints while utilizing the available developer skills effectively.
+  
 - security - is a critical consideration for our system, particularly given its involvement with patient vital data. To bolster security measures, the implementation of both wired and WLAN communication between systems has been adopted. This dual approach aims to provide a resilient and secure network infrastructure. Additionally, the use of devices adhering to established data communication standards, such as HL7, has been prioritized. Opting for standardized protocols over proprietary ones not only fosters interoperability but also contributes to a more secure and cost-effective system. The decision to host the server on-premise further enhances security. This localized approach allows for greater control over access, monitoring, and safeguarding of sensitive patient information. The combination of these measures underscores the commitment to maintaining the integrity and confidentiality of patient vital data throughout the system architecture.
+
 - maintainability - we will strive for designing the system with a modular structure, where components are independent and loosely coupled. This facilitates easier updates or replacements without affecting the entire system, since we will need to address new functionalities. Standardized coding practices and conventions across the development team will be enforced. Consistency in coding style makes it easier for multiple developers to understand and maintain the codebase. Automated testing in dedicated test environment, will be implemented to validate the system's functionality after updates or modifications. Automated tests help catch issues early, ensuring that changes do not introduce unexpected problems. And also Continuous Integration and Deployment pipelines will be created on the test environments, to automate the testing and deployment processes. 
 
+## Worksheet:
 
 ![Cross-functional requirements](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/CrossFunctionalRequirements.png)
