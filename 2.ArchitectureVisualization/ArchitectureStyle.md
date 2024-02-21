@@ -29,5 +29,7 @@ Learning Curve Challenge: Event-driven development may pose a learning curve for
 Data Consistency Risk: Ensuring data consistency across distributed components presents a challenge, with the potential risk of data discrepancies if not handled meticulously.
 
 Routing Logic Risk: The intricacies of complex event routing logic may pose difficulties in management and debugging, potentially leading to errors or delays in the system.
-Event-Driven Architecture Benefits:
+
+### Architecture style worksheet:
+![ArchitectureStyle](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/ArchitectureStylesWorksheet.png)
 
