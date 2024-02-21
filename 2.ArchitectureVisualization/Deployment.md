@@ -1,4 +1,4 @@
-# Deployemnt 
+# Deployment 
 In terms of deploying the MonitorMe system we need to consider that applications run on a custom infrastructure in an OnPremise server.
 Given these constraints we have the following options 
 - Update package with a suporting installer wizzard. Whenever a new version update is available, the Hospital Admin is notified. He then can use the wizzard to install the latest version of the system. The wizzard will need to update the Gatweays, On Premise containers (WebAPI, WebApp, Event messaging system)

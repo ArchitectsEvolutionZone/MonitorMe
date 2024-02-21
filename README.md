@@ -76,8 +76,8 @@ Implicit characteristics:
 
 ## Architecture visualization
 #### [OnPremise infrastructure](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/Infrastructure.md)
-#### C4 diagram 
-#### Deployment 
+#### [C4 diagram](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/C4Diagram.md)
+#### [Deployment](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/Deployment.md)
 ## ADR
 #### [ADR001](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR001.md)
 

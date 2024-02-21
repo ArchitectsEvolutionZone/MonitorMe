@@ -36,3 +36,6 @@ The hospital's administrative team will need to provide
 - [Device Gateway for data collection and transmission](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR006.md) 
 - [Wired communication from Device Gateway to CMS](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR001.md) 
 - [Wired communication from Device Gateway to On-Premise Server](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR003.md)
+
+## Deployment considerations 
+Check the [Deployment page](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/C4Diagram.md) for details on how we think of delivering updates at this stage.
