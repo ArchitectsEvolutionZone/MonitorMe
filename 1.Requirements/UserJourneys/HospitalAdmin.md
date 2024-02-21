@@ -4,7 +4,7 @@ The need of the administrators role was identified based on the [provided requir
 
 __System Administrator__ 
 
-A user with this role will be setup with a clean install of the MonitorMe software. We will then use this role to provide access for the Hospital Administrator and configure system operations (maybe limitting supported devices). 
+A user with this role will be setup with a clean install of the MonitorMe software. We will then use this role to provide access for the Hospital Administrator and configure system operations (maybe limiting supported devices). 
 
 __Hospital Administrator__
 
@@ -19,7 +19,7 @@ The configuration and setup process of the MonitorMe System are communicated thr
 - The system administrator sets up an account for the hospital administrator. Here we're interested in the user name, name as data for the hospital administrator
 - The hospital administrator registers the hospital rooms. Relevant information to collect here is the room's location (floor, room number) and patient capacity.
 - The hospital administrator registers the Consolidated Monitoring Screens that were installed by the support team. Relevant information here is CMS location (floor, nurse station location, identifier) 
-- The hospital administrator associates rooms to Consolidated Monitoring Systems, such as there are max 20 pacients asociated to one CMS.
+- The hospital administrator associates rooms to Consolidated Monitoring Systems, such as there are max 20 patients associated to one CMS.
 - The hospital administrator registers the vital sign devices in the MonitorMe System. Relevant information to collect is: device identifier, device type
 - The hospital administrator creates accounts for the medical professionals. Relevant information here: name, identifier, medical role
 
