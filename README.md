@@ -36,6 +36,7 @@ A thorough analysis of competitors and products on the market is needed to ensur
 
 ## MonitorMe system overview
 
+### [Client Initial requirements](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Requirements/Functional%20Requirements.md)
 
 ### [Requirements analysis](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Capabilities.md)
 
@@ -43,14 +44,10 @@ A thorough analysis of competitors and products on the market is needed to ensur
 
 #### [User journey - hospital admin](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/UserJourneysFolder/HospitalAdmin.md)
 #### [User journey - medical profesional](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/UserJourneysFolder/MedicalProfessional.md)
-#### [OnPremise infrastructure](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Overview/Infrastructure.md)
-
-## Requirements
 
 <img src="https://www.techwell.com/sites/default/files/stories/images/cropped_teasers/Beth%20Romanik/2018/requirements-software-obsolete.png" align="right" height="64px" />
 
-#### [Functional requirements](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Requirements/Functional%20Requirements.md)
-#### [Cross-functional requirements](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Requirements/Cross%20Functional%20Requirements.png)
+### [Cross-functional requirements](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Requirements/Cross%20Functional%20Requirements.png)
 In the project's requirement phase, cross-functional requirements were pinpointed. These characteristics served as guiding principles for the team's choices throughout the architecture analysis stage.
 
 | Top 3      | Driving characteristics       | Details |
@@ -77,7 +74,9 @@ Implicit characteristics:
 - observability - there will be in place a systematic monitoring and logging of various aspects of the system that will allow developers and operators to understand its functioning, diagnose issues, and optimize performance. 
  
 #### [Constraints](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/UserJourneysFolder/Constraints.md)
+
 ## Architecture visualization
+#### [OnPremise infrastructure](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Overview/Infrastructure.md)
 #### C4 diagram
 #### Deployment diagram
 ## ADR
