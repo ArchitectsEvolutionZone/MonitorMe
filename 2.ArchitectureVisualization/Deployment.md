@@ -1,3 +1,5 @@
+<img src="https://images.ctfassets.net/xwxknivhjv1b/5XnpSumu4KPOMxFVcnjko3/ac831641adf132a9550e5993028022a5/Icons.svg" align="right" height="64px" />
+
 # Deployment 
 In terms of deploying the MonitorMe system we need to consider that applications run on a custom infrastructure in an OnPremise server.
 Given these constraints we have the following options 
