@@ -1,6 +1,6 @@
 # MonitorMe System Capabilites
 
-![Capabilities diagram](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/capabilities%20overview%203.png)
+![Capabilities diagram](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/CapabilitiesOverview.png)
 
 By analyzing the [provided requirements](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/ClientInitialRequirements.md), the MonitorMe app is designed to allow hospital staff esily setup a new patient and start monitoring his vital signs, in order to provide the best care. 
 
