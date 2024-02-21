@@ -36,18 +36,18 @@ A thorough analysis of competitors and products on the market is needed to ensur
 
 ## MonitorMe system overview
 
-### [Client Initial requirements](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Requirements/Functional%20Requirements.md)
+### [Client Initial requirements](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/ClientInitialRequirements.md)
 
-### [Requirements analysis](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Capabilities.md)
+### [Requirements analysis](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/Capabilities.md)
 
 <img src="https://wpforms.com/wp-content/uploads/2021/10/user-journey.png" align="left" height="64px" />
 
-#### [User journey - hospital admin](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/UserJourneysFolder/HospitalAdmin.md)
-#### [User journey - medical profesional](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/UserJourneysFolder/MedicalProfessional.md)
+#### [User journey - hospital admin](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/UserJourneys/HospitalAdmin.md)
+#### [User journey - medical profesional](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/UserJourneys/MedicalProfessional.md)
 
 <img src="https://www.techwell.com/sites/default/files/stories/images/cropped_teasers/Beth%20Romanik/2018/requirements-software-obsolete.png" align="right" height="64px" />
 
-### [Cross-functional requirements](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Requirements/Cross%20Functional%20Requirements.png)
+### [Cross-functional requirements](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/Cross%20Functional%20Requirements.png)
 In the project's requirement phase, cross-functional requirements were pinpointed. These characteristics served as guiding principles for the team's choices throughout the architecture analysis stage.
 
 | Top 3      | Driving characteristics       | Details |
@@ -73,12 +73,12 @@ Implicit characteristics:
 - maintainability - we will strive for designing the system with a modular structure, where components are independent and loosely coupled. This facilitates easier updates or replacements without affecting the entire system, since we will need to address new functionalities. Standardized coding practices and conventions across the development team will be enforced. Consistency in coding style makes it easier for multiple developers to understand and maintain the codebase. Automated testing will be implemented to validate the system's functionality after updates or modifications. Automated tests help catch issues early, ensuring that changes do not introduce unexpected problems. And also Continuous Integration and Deployment pipelines will be created to automate the testing and deployment processes. This accelerates the delivery of updates and ensures a more streamlined and predictable maintenance workflow.
 - observability - there will be in place a systematic monitoring and logging of various aspects of the system that will allow developers and operators to understand its functioning, diagnose issues, and optimize performance. 
  
-#### [Constraints](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/UserJourneysFolder/Constraints.md)
+#### [Constraints](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/Constraints.md)
 
 ## Architecture visualization
-#### [OnPremise infrastructure](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Overview/Infrastructure.md)
-#### C4 diagram
-#### Deployment diagram
+#### [OnPremise infrastructure](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/Infrastructure.md)
+#### C4 diagram 
+#### Deployment 
 ## ADR
-#### [ADR001](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/ADR/ADR001.md)
+#### [ADR001](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR001.md)
 

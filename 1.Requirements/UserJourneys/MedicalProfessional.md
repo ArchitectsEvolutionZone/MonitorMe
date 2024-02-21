@@ -5,13 +5,13 @@ MonitorMe System is there to support medical professionals in providing the best
 # Medical Professional's Journeys
 
 ## Registering patients
-
+![RegisterPatient](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/UserJourneys/registerPatients.png)
 
 ## Receiving alerts
+![ReceiveAlers](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/UserJourneys/alertsJourney.png)
 
 ## Generating vital sign snapshots
-
-![Medical professional](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/nurse%20journey.png)
+![Medical professional](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/UserJourneys/snapshotJourney.png)
 
 # Use cases 
 - Register profile for patient in the MonitorMe system. Relevat information to collect: Name, Social Security Number, Status (hospitalized/discharged) 
@@ -23,4 +23,4 @@ MonitorMe System is there to support medical professionals in providing the best
 - Generate vital sign snapshot
 - Upload vital sign snapshot to MyMedicalData
 
-  
+

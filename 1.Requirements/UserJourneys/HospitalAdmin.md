@@ -1,6 +1,6 @@
 # System and Hospital Administrator Role 
 
-The need of the administrators role was identified based on the [provided requirements](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Requirements/Functional%20Requirements.md).
+The need of the administrators role was identified based on the [provided requirements](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/ClientInitialRequirements.md).
 
 __System Administrator__ 
 
@@ -13,7 +13,7 @@ This role will help setup the system so the medical professionals can use it wit
 # Administrator's Journey 
 The configuration and setup process of the MonitorMe System are communicated through the perspectives of the Hospital Administrator role and the dedicated support team for the MonitorMe System.
 
-![Admin journey](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/admin%20journey.png)
+![Admin journey](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/UserJourneys/adminJourney.png)
 
 # Use cases 
 - The system administrator sets up an account for the hospital administrator. Here we're interested in the user name, name as data for the hospital administrator
@@ -24,7 +24,7 @@ The configuration and setup process of the MonitorMe System are communicated thr
 - The hospital administrator creates accounts for the medical professionals. Relevant information here: name, identifier, medical role
 
 # Proposed infrastructure 
-For an overview of the  proposed infrastructure for the MonitorMe System and a visual on how the system will look like after setup, see [Infrastructure Page](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Overview/Infrastructure.md) 
+For an overview of the  proposed infrastructure for the MonitorMe System and a visual on how the system will look like after setup, see [Infrastructure Page](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/Infrastructure.md) 
 
 # Identified components 
 This user journey highlights the need of an administration module in the MonitorMe system
