@@ -33,21 +33,52 @@ Overall, the market for patient and vital signs monitoring is robust and expandi
 Considering the above, there’s no surprise to find many players in this market (GE HealthCare, Medtronic, Vigilife, and Ascom, just to name a few), developing both hardware and software for patient bio-signs monitoring. This competition is good for the patients for the advancement in this field but puts a lot of pressure on companies that develop these software systems and devices. New software systems should aim to improve what already exists (from a performance and cost point of view) and to innovate further patient monitoring field.
 A thorough analysis of competitors and products on the market is needed to ensure product-market fit and product-problem fit. By doing this we can also anticipate requirements beyond current ones.
 
+
 ## MonitorMe system overview
 
-### [Requirements analysis](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Capabilities.md)
-- [User journey - hospital admin](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/UserJourneysFolder/HospitalAdmin.md)
-- [User journey - medical profesional](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/UserJourneysFolder/MedicalProfessional.md)
-- [OnPremise infrastructure](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Overview/Infrastructure.md)
 
+### [Requirements analysis](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Capabilities.md)
+
+<img src="https://wpforms.com/wp-content/uploads/2021/10/user-journey.png" align="left" height="64px" />
+
+#### [User journey - hospital admin](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/UserJourneysFolder/HospitalAdmin.md)
+#### [User journey - medical profesional](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/UserJourneysFolder/MedicalProfessional.md)
+#### [OnPremise infrastructure](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Overview/Infrastructure.md)
 
 ## Requirements
+
+<img src="https://www.techwell.com/sites/default/files/stories/images/cropped_teasers/Beth%20Romanik/2018/requirements-software-obsolete.png" align="right" height="64px" />
+
 #### [Functional requirements](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Requirements/Functional%20Requirements.md)
 #### [Cross-functional requirements](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/Requirements/Cross%20Functional%20Requirements.png)
+In the project's requirement phase, cross-functional requirements were pinpointed. These characteristics served as guiding principles for the team's choices throughout the architecture analysis stage.
+
+| Top 3      | Driving characteristics       | Details |
+|----------------|----------------|----------------|
+| [  ] | Availability |Ensuring a robust system uptime is imperative to promptly dispatch alerts, particularly when dealing with vital signs. This is enforced by reducing the number of possible points of failure and by implementing a failover mechanism that automatically switches to backup systems or resources when the primary ones experience issues, ensuring uninterrupted service. Also regularly data will be backed up to prevent loss.|
+| [x] | Fault tolerance |In the event of critical errors occurring with any of the vital sign devices, the remaining components of the system must continue to operate seamlessly, ensuring ongoing monitoring of other vital signs. Robust monitoring tools will be used to detect faults or anomalies in real-time. Systems will be designed to gracefully degrade when faults occur, ensuring that essential services remain operational even if non-critical functionalities are affected. The faulty components will be isolated to prevent the failure from spreading throughout the system. The use of NoSQL database should enforce fault tolerance as well, since it will distribute data across multiple nodes, and can continue to operate even if some nodes fail.|
+| [x] | Responsiveness | The medical professional utilizing the consolidated monitoring screen should gain an overview of the vital signs data collected from medical devices within a timeframe of 1 second or less. One of the ways to achieve a short timeframe for the user to have a response, is to have in place a wired connection from the Device Gateway that's connected to the medical devices, to the Consolidated Monitoring Screen. This should ensure a very fast communication. The communication will be done asynchronously, by using a Message-Queuing software. |
+| [ ] |Extensibility|   StayHealthy, Inc. is considering the addition of more vital sign monitoring devices to enhance the capabilities of MonitorMe in the future. In order to have extensibility, the connectivity with the monitoring medical devices will be made at plugin level. Thus, every new device or version added in the future, will represent a new plugin. |
+|[ ]| Agility |We plan to adapt to rapidly changing of the business requirements, as they learn more about the new market, by  adopting an iterative and incremental development methodology, like Scrum. This will allow for continuous improvement and flexibility in responding to changing requirements. Understanding and meeting the needs of customers will get prioritized and fast feedback will be gathered and used to iterate on new functionalities quickly.|
+|[x]| Performance	| The component of the system responsible for analyzing vital sign data plays a pivotal role in responding promptly. It is critical for swift and timely action, facilitating instant alerts to medical professionals. One measures taken to achieve performance, will be to optimize algorithms and data structures to ensure efficient processing and resource utilization. Also a caching mechanism will be put in place to store frequently accessed data, reducing the need for redundant processing and enhancing response times.|
+|[ ]	|Accuracy|	Vital sign data that is analyzed and recorded must be as accurate as possible since human lives are at stake. Data sources will be validated and verified to minimize the risk of errors from the outset. Also quality assurance and testing processes will be integrated in order to identify and rectify inaccuracies in data, software, or processes before they impact outcomes. This includes leveraging automation and technology to perform repetitive and data-intensive tasks, reducing the likelihood of human errors and enhancing overall accuracy.|
+
+Other characteristics taken into consideration were:
+
+- interoperability - since we have different systems that need to communicate, exchange data, and operate in conjunction with one another, we need to focus also on interoperability. We will do this by implementing widely accepted industry standards for data formats, communication protocols (HL7), and interfaces. Data formats and structures will be standardized to ensure uniformity in how information is represented and exchanged.
+- redundancy - for minimizing the risk of system failure, we will involve the duplication of critical a component, that is the on-premise server, to enhance reliability and minimize the risk of system failure.
+- confidentiality - patient data is sensitive data and needs to be protected. This involves implementing security measures like encryption techniques, access controls, and policies to protect it from being disclosed to unauthorized individuals or entities.
+
+Implicit characteristics:
+
+- feasibility - we will focus on taking feasibility-driven architectural decisions, which aim to strike a balance between achieving the desired functionality and meeting project constraints. We will also ensure that the chosen architecture is viable within the given time and budgetary constraints while utilizing the available developer skills effectively.
+- security - is a critical consideration for our system, particularly given its involvement with patient vital data. To bolster security measures, the implementation of both wired and WLAN communication between systems has been adopted. This dual approach aims to provide a resilient and secure network infrastructure. Additionally, the use of devices adhering to established data communication standards, such as HL7, has been prioritized. Opting for standardized protocols over proprietary ones not only fosters interoperability but also contributes to a more secure and cost-effective system. The decision to host the server on-premise further enhances security. This localized approach allows for greater control over access, monitoring, and safeguarding of sensitive patient information. The combination of these measures underscores the commitment to maintaining the integrity and confidentiality of patient vital data throughout the system architecture.
+- maintainability - we will strive for designing the system with a modular structure, where components are independent and loosely coupled. This facilitates easier updates or replacements without affecting the entire system, since we will need to address new functionalities. Standardized coding practices and conventions across the development team will be enforced. Consistency in coding style makes it easier for multiple developers to understand and maintain the codebase. Automated testing will be implemented to validate the system's functionality after updates or modifications. Automated tests help catch issues early, ensuring that changes do not introduce unexpected problems. And also Continuous Integration and Deployment pipelines will be created to automate the testing and deployment processes. This accelerates the delivery of updates and ensures a more streamlined and predictable maintenance workflow.
+- observability - there will be in place a systematic monitoring and logging of various aspects of the system that will allow developers and operators to understand its functioning, diagnose issues, and optimize performance. 
+ 
 #### [Constraints](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/UserJourneysFolder/Constraints.md)
 ## Architecture visualization
 #### C4 diagram
-#### User flows diagram
 #### Deployment diagram
 ## ADR
 #### [ADR001](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/ADR/ADR001.md)
