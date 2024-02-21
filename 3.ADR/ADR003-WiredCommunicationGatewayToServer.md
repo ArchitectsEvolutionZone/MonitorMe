@@ -18,6 +18,6 @@ Reasons for this choice are:
    * Stability: Wired connections are less prone to environmental factors that can affect wireless signals, ensuring a stable and consistent connection.
 
 ## Consequences
-Using a wired communication protocol brings plenty of pros and also some cons, as we minimize the risk of data corruption and loss, increasing security due to physical wires,
+Using a wired communication protocol brings plenty of pros and also some cons, as we minimize the risk of data corruption and loss, increasing security due to physical wires, 
 and also being a fast and reliable way to access the on-premise server data quickly which enbles faster decision making. The infrastructure setup cost is to be mentioned, as
 implementing this would require additional investment in cabling, switches and other related equipment, as well as installation and maintenance.
