@@ -10,7 +10,7 @@ The next product they want to bring to life is MonitorMe, a product that will co
 This document intends to describe the architecture of MonitorMe, constraints, and considerations for building an easy-to-use, reliable, scalable, and secure system.
 
 ## Table of contents
-### 1. [MonitorMe Story](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/MonitorMeStory.md)
+### 1. [MonitorMe story](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/MonitorMeStory.md)
 ### 2. MonitorMe system overview
 #### 2.1. [Client Initial requirements](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/ClientInitialRequirements.md)
 #### 2.2. [Requirements analysis](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/Capabilities.md)
@@ -30,7 +30,8 @@ This document intends to describe the architecture of MonitorMe, constraints, an
 ### 3. Architecture visualization
 #### 3.1. [OnPremise infrastructure](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/Infrastructure.md)
 #### 3.2. [C4 diagram](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/C4Diagram.md)
-#### 3.3. [Deployment](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/Deployment.md)
+#### 3.3. [Architecture style](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/ArchitectureStyle.md)
+#### 3.4. [Deployment](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/Deployment.md)
 ### 4. ADR
 #### 4.1. [ADR001-WiredCommunicationGatewayToCMS](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR001-WiredCommunicationGatewayToCMS.md)
 #### 4.2. [ADR002-HL7TransmissionToDeviceGateway](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR002-HL7TransmissionToDeviceGateway.md)
