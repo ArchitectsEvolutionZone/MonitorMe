@@ -33,11 +33,21 @@ This document intends to describe the architecture of MonitorMe, constraints, an
 #### 4.7. [ADR007-MessagingBrokerForDeviceGateway](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR007-MessagingBrokerForDeviceGateway.md)
 #### 4.8. [ADR008-WiredCommunicationServerToCMS](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR008-WiredCommunicationServerToCMS.md)
 #### 4.9. [ADR009-NoSQLOnPrem](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR009-NoSQLOnPrem.md)
-#### 4.10. [ADR0010-InMemoryCaching](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR0010-InMemoryCaching.md)
-#### 4.11. [ADR0011-OnPremServerCluster](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR0011-OnPremServerCluster.md)
+#### 4.10. [ADR0010-InMemoryCaching](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR010-InMemoryCaching.md)
+#### 4.11. [ADR0011-OnPremServerCluster](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR011-OnPremServerCluster.md)
 
 <img src="https://clipart-library.com/img/1558480.jpg" align="left" height="64px" />
 
+
+
 ## Contributors
+
+
+- Alina Avram
+- Ionut Burzo
+- Hajni Covaci
+- Claudiu Cretu
+- Mihai Todorut
+  
 ### Contact Information: ArchitectsEvolutionZone@evozon.com
 
