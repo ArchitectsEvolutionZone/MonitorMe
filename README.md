@@ -57,6 +57,7 @@ This document intends to describe the architecture of MonitorMe, constraints, an
 - Hajni Covaci
 - Claudiu Cretu
 - Mihai Todorut
-  
+
+We are a team of software professionals, keen to improve our software architecture  practice so that we give projects clarity, transparency, predictability, and lower the risk of project failure (not in time, scope, and budget).
 ### Contact Information: ArchitectsEvolutionZone@evozon.com
 
