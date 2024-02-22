@@ -54,7 +54,7 @@ This document intends to describe the architecture of MonitorMe, constraints, an
 
 - Alina Avram
 - Ionut Burzo
-- Hajni Covaci
+- Hajni Burzo-Covaci
 - Claudiu Cretu
 - Mihai Todorut
 
