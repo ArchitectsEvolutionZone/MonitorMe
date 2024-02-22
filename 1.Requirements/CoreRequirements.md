@@ -1,3 +1,5 @@
+<img src="https://theme.zdassets.com/theme_assets/9716892/9d4dbeff76ce4633b7f7bb6ad23087af7d0e40b9.png" align="right" height="64px" />
+
 # Core requirements
 Our analysis on the client's requirements concludes that these are the essential features of the system
 - MonitorMe system receives data from medical devices and does not fail when one of the medical devices is down 
