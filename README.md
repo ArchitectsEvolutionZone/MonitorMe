@@ -45,12 +45,12 @@ This document intends to describe the architecture of MonitorMe, constraints, an
 #### 4.10. [ADR0010-InMemoryCaching](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR010-InMemoryCaching.md)
 #### 4.11. [ADR0011-OnPremServerCluster](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR011-OnPremServerCluster.md)
 
-<img src="https://clipart-library.com/img/1558480.jpg" align="left" height="64px" />
 
 
 
 ## Contributors
 
+<img src="https://clipart-library.com/img/1558480.jpg" height="64px" />
 
 - Alina Avram
 - Ionut Burzo
