@@ -44,9 +44,7 @@ This document intends to describe the architecture of MonitorMe, constraints, an
 #### 4.9. [ADR009-NoSQLOnPrem](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR009-NoSQLOnPrem.md)
 #### 4.10. [ADR0010-InMemoryCaching](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR010-InMemoryCaching.md)
 #### 4.11. [ADR0011-OnPremServerCluster](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR011-OnPremServerCluster.md)
-
-
-
+#### 4.12. [ADR0012-EventDrivenArchitecture](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR012-EventDrivenArchitecture.md)
 
 ## Contributors
 
