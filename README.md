@@ -19,15 +19,15 @@ This document intends to describe the architecture of MonitorMe, constraints, an
 ##### 2.2.2. [User journey - medical profesional](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/UserJourneys/MedicalProfessional.md)
 ##### 2.2.3. [Requirements analysis conclusions](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/CoreRequirements.md)
 #### 2.3. [Cross-functional requirements](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/CrossFunctionalRequirements.md)
-#### 2.4. Capabilities
-####   2.4.1 Consolidated Monitoring Screen
-####     2.4.1.1. [Pacient Overview](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/Mocks/CMS.png)
-####     2.4.1.2. [Desktop UI](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/Mocks/Desktop%1.png)
-####     2.4.1.3. [Entity Management](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/Mocks/Desktop%2.png)
-####   2.4.2 MonitorMe Mobile App
-####     2.4.2.1 [Launch UI](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/Mocks/Mobile%1.png)
-####     2.4.2.2 [Pacient Overview](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/Mocks/Mobile%2.png)
-####     2.4.2.3 [Alert](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/Mocks/Mobile%3.png)
+# 2.4. Capabilities
+###   2.4.1 Consolidated Monitoring Screen
+###     2.4.1.1. [Pacient Overview](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/Mocks/CMS.png)
+###     2.4.1.2. [Desktop UI](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/Mocks/Desktop%1.png)
+###     2.4.1.3. [Entity Management](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/Mocks/Desktop%2.png)
+##   2.4.2 MonitorMe Mobile App
+###     2.4.2.1 [Launch UI](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/Mocks/Mobile%1.png)
+###     2.4.2.2 [Pacient Overview](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/Mocks/Mobile%2.png)
+###     2.4.2.3 [Alert](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/Mocks/Mobile%3.png)
 ### 3. Architecture visualization
 #### 3.1. [OnPremise infrastructure](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/Infrastructure.md)
 #### 3.2. [C4 diagram](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/C4Diagram.md)
