@@ -1,12 +1,13 @@
 # Context
-
+This is a high level overview of the system, meant to show what other systems and roles MonitorMe will interact with.
 ![infrastructure](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/C4/Context%20Diagram.jpg)
 
 # Containers
-
+Zooming in, we can see which containers build up the MonitorMe system and we hint at the technologies used.
 ![infrastructure](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/C4/Containers%20Diagram.jpg)
 
 # Components
+On an even lower abstraction level, the behavrior of the MonitorMe system becomes more clear; we can see how the componentent of the system will interact with each other.
 
 ### Processing vital sign device data 
 
