@@ -1,4 +1,4 @@
-# MonitorMe infrastructure 
+# Infrastructure 
 
 ![infrastructure](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/Infrastructure.png)
 
