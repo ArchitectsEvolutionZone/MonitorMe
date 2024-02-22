@@ -2,10 +2,9 @@
 
 # MonitorMe
 
-## Our story
+## Context and Overview
 <img src="https://clipart-library.com/8300/1931/description-clipart-description-clipart-1.jpg" align="left" height="64px" />
 
-#### Context and Overview
 StayHealthy, Inc. is a large successful medical software company that already has two popular cloud-based SAAS products on the market (MonitorThem and MyMedicalData).
 The next product they want to bring to life is MonitorMe, a product that will collect patient vital signs from various sources (like wearables and medical devices that measure heart rate, blood pressure, oxygen level, blood sugar, respiration rate, electrocardiogram (ECG), body temperature, and sleep status). 
 This document intends to describe the architecture of MonitorMe, constraints, and considerations for building an easy-to-use, reliable, scalable, and secure system.
