@@ -4,7 +4,7 @@
 
 ## Project scope
 
-MonitorMe aims to provide instantaneous alerts to medical professionals by leveraging received vital data, enabling swift responses to potential problems with a patient. The system's core functionality revolves around real-time monitoring of vital signs, ensuring that healthcare providers receive timely notifications, facilitating prompt and effective interventions when necessary.
+MonitorMe aims to provide instantaneous alerts to medical professionals by leveraging received vital data, enabling swift responses to potential problems with a patient. The system's [core](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/CoreRequirements.md) functionality revolves around real-time monitoring of vital signs, ensuring that healthcare providers receive timely notifications, facilitating prompt and effective interventions when necessary.
 
 Choosing an appropriate architectural style is essential for ensuring that the system's structure aligns with the business specific needs.
 
@@ -35,7 +35,7 @@ Event-driven architecture is commonly used in various applications, including:
 - IoT (Internet of Things) applications
 - Systems that require high levels of concurrency and responsiveness
 
-After conducting a thorough assessment utilizing the Architecture Styles Worksheet, the team has arrived at the decision that the most fitting architectural solution for the MonitorMe system is the adoption of an event-driven architecture. This conclusion is based on the alignment of the event-driven paradigm with the identified project requirements and essential architectural characteristics. The team foresees that embracing an event-driven architecture will effectively address the dynamic nature of vital sign monitoring, offering scalability and responsiveness crucial for the system's success.
+After conducting a thorough assessment utilizing the [Architecture Styles Worksheet](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/ArchitectureStylesWorksheet.png), the team has arrived at the decision that the most fitting architectural solution for the MonitorMe system is the adoption of an event-driven architecture. This conclusion is based on the alignment of the event-driven paradigm with the identified [project requirements](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/ClientInitialRequirements.md) and essential [architectural characteristics](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/CrossFunctionalRequirements.md). The team foresees that embracing an event-driven architecture will effectively address the dynamic nature of vital sign monitoring, offering scalability and responsiveness crucial for the system's success.
 
 We also tool in consideration a Microservice architecture approach, and while Microservices offer numerous benefits, including agility, scalability, and ease of maintenance, they may introduce certain challenges in terms of performance, especially in scenarios where low latency is crucial, such as providing fast alerts in healthcare systems.
 Given the emphasis on providing fast alerts in our scenario, Event-driven architecture style was preferred.
@@ -95,13 +95,9 @@ Risk: Monitoring a distributed event-driven system can be challenging, leading t
 Mitigation: Invest in comprehensive monitoring tools and practices. Implement centralized logging and monitoring solutions to track system behavior. Conduct regular performance testing to identify and address potential issues proactively.
 
 ## Architecture visualisation
-The C4 diagram visually illustrates a high level overview of the system and the infrastructure is high-lighted 
+The [C4 diagram](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/C4Diagram.md) visually illustrates a high level overview of the system and the infrastructure is high-lighted 
 
-[C4 diagram](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/C4Diagram.md)
-
-The infrastructure diagram provides a visual representation of the physical or virtual components that make up the underlying infrastructure of a system. It typically focuses on servers, networks, storage, and other key elements that support the deployment and operation of software components.
-
-[Infrastructure diagram](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/Infrastructure.md)
+The [Infrastructure diagram](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/Infrastructure.md)m provides a visual representation of the physical or virtual components that make up the underlying infrastructure of a system. It typically focuses on servers, networks, storage, and other key elements that support the deployment and operation of software components.
 
 ## Architecture style worksheet:
 ![ArchitectureStyle](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/ArchitectureStylesWorksheet.png)
