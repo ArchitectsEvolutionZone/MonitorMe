@@ -36,6 +36,9 @@ The hospital's administrative team will need to provide
 - [Device Gateway for data collection and transmission](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR006-DeviceGateway.md) 
 - [Wired communication from Device Gateway to CMS](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR001-WiredCommunicationGatewayToCMS.md) 
 - [Wired communication from Device Gateway to On-Premise Server](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR003-WiredCommunicationGatewayToServer.md)
+- [WLAN communication with Mobile App](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR005-WLANReceiveAlertsFromServer.md)
+- [WLAN communication with Web App](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR004-WLANDataRequestsToServer.md)
+- [Using On-Premise server cluster for redundancy](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR011-OnPremServerCluster.md)
 
 ## Deployment considerations 
 Check the [Deployment page](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/Deployment.md) for details on how we think of delivering updates at this stage.
