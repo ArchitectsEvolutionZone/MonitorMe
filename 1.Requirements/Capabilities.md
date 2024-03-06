@@ -2,7 +2,7 @@
 
 ![Capabilities diagram](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/CapabilitiesOverview.png)
 
-By analyzing the [provided requirements](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/ClientInitialRequirements.md), the MonitorMe app is designed to allow hospital staff esily setup a new patient and start monitoring his vital signs, in order to provide the best care. 
+By analyzing the [provided requirements](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/ClientInitialRequirements.md), the MonitorMe app is designed to allow hospital staff easily setup a new patient and start monitoring his vital signs, in order to provide the best care. 
 
 An initial step is for the Hospital Administrator to register medical professionals in the system. Once this is done, medical professionals can then login, either from the Web or the Mobile app. 
 
