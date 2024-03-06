@@ -21,3 +21,10 @@ Reasons for this choice are:
 Using a wired communication protocol brings plenty of pros and also some cons, as we minimize the risk of data corruption and loss, increasing security due to physical wires, 
 and also being a fast and reliable way to access the on-premise server data quickly which enbles faster decision making. The infrastructure setup cost is to be mentioned, as
 implementing this would require additional investment in cabling, switches and other related equipment, as well as installation and maintenance.
+
+## Options
+
+  * Wireless Redundancy: One pretty obvious option would be implementing a backup wireless communication channel alongside the primary wired connection to provide redundancy and ensure continuous data transmission in case of wired network failures. This redundancy can enhance reliability without sacrificing the benefits of wired communication.
+  * Hybrid Communication: We could explore the possibility of utilizing a hybrid communication approach, where critical data is transmitted via wired connections for reliability and security, while non-critical or supplementary data is transmitted wirelessly to enhance flexibility and scalability.
+  * Fiber Optic Communication: Depending on available budget, we could consider upgrading the wired communication infrastructure to use fiber optic cables instead of traditional copper cables. Fiber optic cables offer higher bandwidth, longer transmission distances, and immunity to electromagnetic interference, making them ideal for high-speed and reliable data transfer.
+  * Cloud-Based Data Storage: There is also the option of migrating data storage and management to a cloud-based platform instead of relying solely on the on-premise server "MonitorMe." Cloud-based solutions offer scalability, accessibility, and built-in redundancy, potentially reducing infrastructure costs and management overhead in the long term.
