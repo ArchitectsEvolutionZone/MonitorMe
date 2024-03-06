@@ -20,7 +20,7 @@ The consumers that attach to the Event Messaging System, will have specific resp
 ![infrastructure](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/C4/Components%20Diagram.jpg)
 
 ### Relevant Architecture Decision Records 
-[Using Device Gateway to push vital sign device data into the system](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR006-DeviceGateway.md)
-[Using a Messaging Broker to facilitate communication between components](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR007-MessagingBrokerForDeviceGateway.md)
-[Using NoSQL as persistance](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR009-NoSQLOnPrem.md)
+- [Using Device Gateway to push vital sign device data into the system](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR006-DeviceGateway.md)
+- [Using a Messaging Broker to facilitate communication between components](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR007-MessagingBrokerForDeviceGateway.md)
+- [Using NoSQL as persistance](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR009-NoSQLOnPrem.md)
 
