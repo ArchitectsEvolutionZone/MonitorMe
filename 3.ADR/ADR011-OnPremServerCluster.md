@@ -23,4 +23,7 @@ Proposed
  * Scalability: A cluster of physical machines can provide scalability in terms of increasing capacity by adding more machines to the cluster. However, we will need to carefully consider how we scale our services and ensure that the cluster can handle increased load.
  * Monitoring and Management: We will need to implement monitoring and management tools to ensure the health and performance of the cluster. This includes monitoring for hardware failures, load balancing, and automatic failover.
  * Backup and Recovery: We will need to implement backup and recovery strategies for the data stored on the cluster to prevent data loss in the event of a failure.
+
+## Relevant resources 
+- [Infrastructure](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/Infrastructure.md)
    
