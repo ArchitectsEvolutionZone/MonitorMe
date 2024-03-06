@@ -17,6 +17,7 @@ This document intends to describe the architecture of MonitorMe, constraints, an
 ##### 2.2.1. [User journey - hospital admin](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/UserJourneys/HospitalAdmin.md)
 ##### 2.2.2. [User journey - medical profesional](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/UserJourneys/MedicalProfessional.md)
 ##### 2.2.3. [Requirements analysis conclusions](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/CoreRequirements.md)
+##### 2.2.4. [Glossary](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/Glossary.md)
 #### 2.3. [Cross-functional requirements](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/CrossFunctionalRequirements.md)
 #### 2.4. Capabilities
 ####   2.4.1 Consolidated Monitoring Screen
