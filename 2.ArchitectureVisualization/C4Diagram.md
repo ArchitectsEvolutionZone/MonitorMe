@@ -23,4 +23,6 @@ The consumers that attach to the Event Messaging System, will have specific resp
 - [Using Device Gateway to push vital sign device data into the system](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR006-DeviceGateway.md)
 - [Using a Messaging Broker to facilitate communication between components](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR007-MessagingBrokerForDeviceGateway.md)
 - [Using NoSQL as persistance](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR009-NoSQLOnPrem.md)
+- [Using Event driven architectural style](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR012-EventDrivenArchitecture.md)
+- [Using in memory caching to enhance alert time](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR010-InMemoryCaching.md)
 
