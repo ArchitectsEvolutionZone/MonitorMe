@@ -6,7 +6,7 @@ We've illustrated below 3 scenarios where a Medical Professional interacts with 
 # Medical Professional's Journeys
 
 ## Registering patients
-[registering patients](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/UserJourneys/registerPatients.png)
+![registering patients](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/UserJourneys/registerPatients.png)
 
 ## Receiving alerts
 ![ReceiveAlers](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/resources/UserJourneys/alertsJourney.png)
