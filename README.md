@@ -31,8 +31,9 @@ This document intends to describe the architecture of MonitorMe, constraints, an
 ### 3. Architecture visualization
 #### 3.1. [OnPremise infrastructure](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/Infrastructure.md)
 #### 3.2. [C4 diagram](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/C4Diagram.md)
-#### 3.3. [Architecture style](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/ArchitectureStyle.md)
-#### 3.4. [Deployment](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/Deployment.md)
+#### 3.3. [Sequence diagrams](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/SequenceDiagrams.md)
+#### 3.4. [Architecture style](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/ArchitectureStyle.md)
+#### 3.5. [Deployment](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/Deployment.md)
 ### 4. ADR
 #### 4.1. [ADR001-WiredCommunicationGatewayToCMS](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR001-WiredCommunicationGatewayToCMS.md)
 #### 4.2. [ADR002-HL7TransmissionToDeviceGateway](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/3.ADR/ADR002-HL7TransmissionToDeviceGateway.md)
