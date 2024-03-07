@@ -21,3 +21,6 @@ Proposed
 ## Options
   * Open-Source Message Broker: A great option would be to consider leveraging an open-source message broker software, such as Apache Kafka or RabbitMQ, to fulfill the messaging component's functionality. Open-source solutions offer flexibility, community support, and customization options without vendor lock-in.
   * Edge Computing Integration: Investigate integrating edge computing capabilities with the message broker component to perform initial data processing and filtering at the network edge. This reduces the amount of data transmitted over the network and improves response times for critical messages.
+
+## Usefull links
+- [C4 Diagram](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/C4Diagram.md)
