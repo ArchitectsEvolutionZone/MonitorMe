@@ -30,3 +30,6 @@ Proposed
    * Traditional Relational Databases: We could explore using traditional relational databases instead of NoSQL. While NoSQL offers flexibility, relational databases are known for their strong data consistency and integrity features, which might be important for critical medical data storage.
    * Hybrid Approach: We might consider a hybrid approach that combines NoSQL and relational databases. This way, we could leverage the flexibility of NoSQL for certain types of data while relying on the strong consistency guarantees of relational databases for other data types.
    * Evaluate Cloud-Based Solutions: We could evaluate cloud-based database solutions that offer both NoSQL and relational database options. This could provide us with the flexibility to choose the best fit for each use case while offloading maintenance and scalability concerns to the cloud provider.
+
+## Usefull links 
+- [C4 Diagram](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/C4Diagram.md)
