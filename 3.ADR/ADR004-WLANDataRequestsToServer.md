@@ -33,3 +33,6 @@ Cons:
   * Quality of Service Configuration (QoS): Ensuring that critical patient data transmissions receive higher network priority, we could implement QoS configuration on WLAN access points to prioritize Web App data requests, leading to more reliable and consistent performance.
   * Guest Network Segmentation: Segment the WLAN network into separate virtual networks, with one dedicated for healthcare professionals' use and another for guest access. This helps maintain network security and performance by isolating patient data traffic from non-essential traffic.
   * Redundant WLAN Infrastructure: Implement redundant WLAN infrastructure, including backup access points and controllers, to minimize downtime and ensure continuous availability of patient data access even in the event of hardware failures or network disruptions.
+    
+## Usefull links 
+- [Infrastructure page](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/Infrastructure.md)
