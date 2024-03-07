@@ -1,17 +1,14 @@
-# Using In-Memory Caching for Storing Snapshots and Frequently Accessed Data
-
+# Using In-Memory Caching for fast alert determination
 ## Context
-In our software ecosystem, we have various components that frequently access and update snapshots of data and other frequently accessed information. 
-These snapshots and frequently accessed data are used for analytics, reporting, and various other purposes. 
-Storing this data in a way that allows for fast access and updates is crucial to the performance of our system.
+MonitorMe needs to be able to determine fast if a patient vital signs has degrated and send alert towards the medical professionals. In order to do that, we consider using an In-Memory Caching for the latest vital signs. 
+This way, when a vital sign comes in from a device, we can easily access other vital sign data needed to decide if the current vital sign is outside an expected range (which will trigger the alert). 
 
 ## Decision: 
-We have decided to implement an in-memory caching system to store these snapshots and frequently accessed data. 
+We have decided to implement an in-memory caching system to store frequently accessed data. 
 This decision is based on the following considerations:
   * Performance: In-memory caching allows for extremely fast read and write access, significantly improving the performance of our system.
   * Reduced Load on Main Datastore: By caching frequently accessed data in-memory, we can reduce the load on our main datastores, which can be particularly important for scaling our system.
   * Scalability: In-memory caching systems can easily scale horizontally by adding more caching nodes, making it an excellent choice for our growing system.
-  * Snapshots: Storing snapshots in-memory allows for quick access to historical data, which is essential for many of our use cases.
   * Cost-Effectiveness: In-memory caching systems are generally more cost-effective than traditional storage solutions for frequently accessed data.
 
 ## Status
