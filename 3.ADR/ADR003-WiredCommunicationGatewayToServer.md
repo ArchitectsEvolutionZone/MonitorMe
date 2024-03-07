@@ -28,3 +28,6 @@ implementing this would require additional investment in cabling, switches and o
   * Hybrid Communication: We could explore the possibility of utilizing a hybrid communication approach, where critical data is transmitted via wired connections for reliability and security, while non-critical or supplementary data is transmitted wirelessly to enhance flexibility and scalability.
   * Fiber Optic Communication: Depending on available budget, we could consider upgrading the wired communication infrastructure to use fiber optic cables instead of traditional copper cables. Fiber optic cables offer higher bandwidth, longer transmission distances, and immunity to electromagnetic interference, making them ideal for high-speed and reliable data transfer.
   * Cloud-Based Data Storage: There is also the option of migrating data storage and management to a cloud-based platform instead of relying solely on the on-premise server "MonitorMe." Cloud-based solutions offer scalability, accessibility, and built-in redundancy, potentially reducing infrastructure costs and management overhead in the long term.
+
+## Usefull links 
+- [Infrastructure page](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/Infrastructure.md)
