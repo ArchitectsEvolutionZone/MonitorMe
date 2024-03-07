@@ -18,3 +18,6 @@ Proposed
   * Security: The messaging broker will provide robust security features, such as access control lists (ACLs), SSL/TLS encryption, and user authentication, ensuring secure communication between components.
   * Monitoring and Management: The messaging broker will offer extensive monitoring and management capabilities, allowing us to track message delivery, monitor queues, and troubleshoot issues, ensuring the overall health and performance of our communication infrastructure.
    
+## Options
+  * Open-Source Message Broker: A great option would be to consider leveraging an open-source message broker software, such as Apache Kafka or RabbitMQ, to fulfill the messaging component's functionality. Open-source solutions offer flexibility, community support, and customization options without vendor lock-in.
+  * Edge Computing Integration: Investigate integrating edge computing capabilities with the message broker component to perform initial data processing and filtering at the network edge. This reduces the amount of data transmitted over the network and improves response times for critical messages.
