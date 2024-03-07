@@ -34,3 +34,6 @@ Cons:
   * Integration with Nurse Call Systems: Explore integration capabilities with existing nurse call systems to synchronize alerts between the mobile app and nurse call stations. This ensures consistent alert delivery across different communication channels and enhances nurse responsiveness.
   * Geofencing Alerts: Implement geofencing functionality within the mobile app to trigger alerts based on nurses' physical location within the hospital premises. This allows for targeted alert delivery to nurses in specific areas, optimizing response times and workflow efficiency.
   * Remote Monitoring Capabilities: Extend the mobile app functionality to enable remote monitoring of patient alerts and data, allowing nurses to access critical information even when off-site. This enhances flexibility and supports telemedicine initiatives, but requires robust security measures to protect patient data during remote access.
+
+## Usefull links 
+- [Infrastructure page](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/Infrastructure.md)
