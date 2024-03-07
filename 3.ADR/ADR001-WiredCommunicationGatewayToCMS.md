@@ -21,3 +21,6 @@ Instead of relying on wired communication, we have considered leveraging wireles
   * Potential for Redundancy: By utilizing multiple wireless access points or redundant communication channels, it's possible to enhance reliability and resilience against network failures. This redundancy can ensure continuous data transmission even in the event of signal interference or hardware malfunctions.
 
   However, it's essential to consider limitations associated with wireless communication, such as security concerns, signal interference, and potential latency issues. Proper planning, implementation of security measures, and performance testing are crucial steps in ensuring the effectiveness and reliability of wireless communication in transmitting sensitive medical data.
+  
+## Usefull links 
+- [Infrastructure page](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/Infrastructure.md)
