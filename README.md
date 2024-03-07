@@ -15,10 +15,10 @@ The next product they want to bring to life is MonitorMe, a product that will co
 This document intends to describe the architecture of MonitorMe, constraints, and considerations for building an easy-to-use, reliable, scalable, and secure system.
 
 ## Video presentation
-You can find a video presentation of our design process and proposed solution [at this link](https://drive.google.com/file/d/1Q0IsgMJLxcmW9HysKKgLrMS5u5ZdwPtz/view).
+You can find a video presentation of our design process and proposed solution [at this page](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/VideoOverview.md).
 
 ## Table of contents
-### 1. [MonitorMe story](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/MonitorMeStory.md)
+### 1. [MonitorMe story](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/man/1.Requirements/MonitorMeStory.md)
 ### 2. MonitorMe system overview
 #### 2.1. [Client Initial requirements](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/ClientInitialRequirements.md)
 #### 2.2. [Requirements analysis](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/Capabilities.md)
