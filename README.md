@@ -14,6 +14,9 @@ StayHealthy, Inc. is a large successful medical software company that already ha
 The next product they want to bring to life is MonitorMe, a product that will collect patient vital signs from various sources (like wearables and medical devices that measure heart rate, blood pressure, oxygen level, blood sugar, respiration rate, electrocardiogram (ECG), body temperature, and sleep status). 
 This document intends to describe the architecture of MonitorMe, constraints, and considerations for building an easy-to-use, reliable, scalable, and secure system.
 
+## Video presentation
+You can find a video presentation of our design process and proposed solution [at this link](https://drive.google.com/file/d/1Q0IsgMJLxcmW9HysKKgLrMS5u5ZdwPtz/view).
+
 ## Table of contents
 ### 1. [MonitorMe story](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/MonitorMeStory.md)
 ### 2. MonitorMe system overview
