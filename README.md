@@ -2,6 +2,11 @@
 
 # MonitorMe
 
+## Executive summary 
+This document presents an architectural proposal done by AchitectsEvolutionZone team for the O’Reilly Winter 2024 Architectural Katas contest.
+The architecture describes our approach and decisions for implementing MonitorMe, a software that will help healthcare professionals by leveraging the power of new devices to provide accurate, timely, and easy to read patient data. Helping them in diagnosing and choosing treatments will lead to faster, better, and informed decisions for healthcare professionals and faster recovery time for patients.”
+A thorough requirements analysis proses was used to identify architectural characteristics, user flows, C4 diagrams, sequence diagrams, infrastructure layout, user interface mockups, and ADRs were used to describe our vision on how MonitorMe can be designed and implemented.
+
 ## Context and Overview
 <img src="https://clipart-library.com/8300/1931/description-clipart-description-clipart-1.jpg" align="left" height="64px" />
 
