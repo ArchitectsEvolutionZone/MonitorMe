@@ -32,3 +32,6 @@ This same protocol would be used going forward to any and all transfer of medica
   * Middleware Integration: There is also the option of implement middleware solutions or an integration platform that supports bidirectional communication between medical devices and the Gateway, while also facilitating HL7 message transformation and routing. This approach could provide more flexibility in handling different data formats and protocols from various medical devices.
 
   * Cloud-Based Data Processing: We could also consider leveraging cloud-based platforms for data processing and integration, where medical device data can be transmitted to the cloud using HL7 standards and then processed, analyzed, and forwarded to the Gateway as needed. This approach offers scalability, real-time analytics capabilities, and remote access to data, but obviously comes with a literal price.
+
+## Usefull links 
+- [Infrastructure page](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/Infrastructure.md)
