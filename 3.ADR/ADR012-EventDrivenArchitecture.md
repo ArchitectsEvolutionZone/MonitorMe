@@ -36,4 +36,5 @@ Adaptability Benefit: Leveraging an event-driven architecture provides adaptabil
 
 ## Usefull links 
 - [C4 Diagram](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/C4Diagram.md)
+- [Architectural style](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/ArchitectureStyle.md)
 
