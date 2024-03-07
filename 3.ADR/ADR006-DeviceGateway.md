@@ -21,4 +21,7 @@ consumers, over wired and wireless communication.
    
 ## Options
   * Cloud-Based Message Brokering: We could explore using a cloud-based message broker service instead of a physical component. Cloud-based solutions offer scalability, redundancy, and easier maintenance, potentially reducing infrastructure costs and management overhead.
+
+## Usefull links 
+- [Infrastructure page](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/Infrastructure.md)
   
