@@ -26,3 +26,6 @@ Proposed
  * Database Materialized Views: Materialized views are precomputed tables that store the results of a query. We could use database materialized views to store snapshots of frequently accessed data. This allows us to efficiently retrieve and query the snapshot data without the need for additional caching layers.
  * Data Warehousing: Data warehousing involves storing large volumes of data in a centralized repository optimized for analytical queries. We could use a data warehousing solution to store snapshots of frequently accessed data, allowing for efficient querying and analysis of historical data.
  * Distributed Cache: Instead of using a single in-memory caching system, we could implement a distributed cache solution. Distributed caches replicate data across multiple nodes, providing fault tolerance and scalability. This allows us to store and access snapshots of frequently accessed data across a distributed network of cache nodes.
+
+## Usefull links 
+- [C4 Diagram](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/C4Diagram.md)
