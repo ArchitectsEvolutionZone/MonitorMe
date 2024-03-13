@@ -18,7 +18,7 @@ This document intends to describe the architecture of MonitorMe, constraints, an
 You can find a video presentation of our design process and proposed solution [at this page](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/2.ArchitectureVisualization/VideoOverview.md).
 
 ## Table of contents
-### 1. [MonitorMe story](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/man/1.Requirements/MonitorMeStory.md)
+### 1. [MonitorMe story](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/MonitorMeStory.md)
 ### 2. MonitorMe system overview
 #### 2.1. [Client Initial requirements](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/ClientInitialRequirements.md)
 #### 2.2. [Requirements analysis](https://github.com/ArchitectsEvolutionZone/MonitorMe/blob/main/1.Requirements/Capabilities.md)
